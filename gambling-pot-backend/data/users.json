@@ -1,0 +1,59 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Nik",
+            "balance": 0
+        },
+        {
+            "id": 1,
+            "name": "Mathias",
+            "balance": 0
+        },
+        {
+            "id": 2,
+            "name": "Janik",
+            "balance": 0
+        },
+        {
+            "id": 3,
+            "name": "Jonas",
+            "balance": 0
+        },
+        {
+            "id": 4,
+            "name": "David",
+            "balance": 0
+        },
+        {
+            "id": 5,
+            "name": "Karina",
+            "balance": 0
+        },
+        {
+            "id": 6,
+            "name": "Aiden",
+            "balance": 0
+        },
+        {
+            "id": 7,
+            "name": "Sigal",
+            "balance": 0
+        },
+        {
+            "id": 8,
+            "name": "Kevin",
+            "balance": 0
+        },
+        {
+            "id": 9,
+            "name": "Jonathan",
+            "balance": 0
+        },
+        {
+            "id": 10,
+            "name": "Marlon",
+            "balance": 0
+        }
+    ]
+}
