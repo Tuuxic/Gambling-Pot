@@ -1,4 +1,4 @@
-import sys
+import os
 import uuid
 from gevent import monkey
 from pot import distrPoints
@@ -10,6 +10,8 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import json, atexit, time
 
+CERT_PATH = os.environ["CERTPATH"]
+PRIVATE_KEY_PATH = os.environ["KEYPATH"]
 
 USERS_PATH = 'data/users.json'
 STATE_PATH = 'data/gamestate.json'
@@ -218,7 +220,7 @@ def run():
 
     atexit.register(save_data)
 
-    http_server = WSGIServer((SERVER, 5000), app)
+    http_server = WSGIServer((SERVER, 5000), app, keyfile=PRIVATE_KEY_PATH, certfile=CERT_PATH)
     http_server.serve_forever()
      
 

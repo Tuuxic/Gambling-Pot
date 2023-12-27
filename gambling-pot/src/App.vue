@@ -19,7 +19,7 @@
         },
         data() {
             return {
-                host: 'http://85.215.155.141:5000',
+                host: 'https://gameshow.nikolaiprjanikov.de:5000',
                 //host: "http://localhost:5000", 
                 selected_user: null,
                 pollingInterval: 3000

@@ -37,7 +37,7 @@ def distrPoints(playerOptSelection, potForOpt, betPoints, winOption):
             print(f"Player {key} looses {betPoints} Points")
             continue
         # payoutPlayer = indPayout + playerPointsBet[key]
-        result[key] = indPayout + betPoints
+        result[key] = indPayout
         print(f"Player {key} gets {indPayout} Points")
 
     return result
